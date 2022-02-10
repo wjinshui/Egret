@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartSkin" width="1000" height="564" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17e954f6d02" ></w:Config>
+	<e:Image source="start_png" x="0" y="0" visible="true"/>
+	<e:Label id="lblStart" x="591.65" y="307.704" width="42.957" height="140.429"/>
+	<e:Label x="514.166" y="307.704" width="42.957" height="143.251" id="lblContinue"/>
+</e:Skin>

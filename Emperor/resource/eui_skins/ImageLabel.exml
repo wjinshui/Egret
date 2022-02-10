@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ImageLabelSkin" width="100.5" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17e9b13df69" ></w:Config>
+	<e:Rect id="rect" fillColor="0xD07070" ellipseWidth="20" ellipseHeight="20" strokeColor="0xE0CACA" strokeWeight="4" fillAlpha="0.6" left="5" top="5" right="5" bottom="5"/>
+	<e:Label id="content" textAlign="center" verticalAlign="middle" top="10" left="10" right="10" bottom="10" fontFamily="KaiTi" text="户" size="20"/>
+</e:Skin>

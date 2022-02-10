@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TableControlSkin" width="800" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17eba2d74b8" ></w:Config>
+	<e:Scroller id="scroller" left="0" right="0" top="50" bottom="0">
+		<e:Group id="groupContent">
+			<e:layout>
+				<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="groupHeader" left="0" top="0" right="0" height="50.912">
+		<e:layout>
+			<e:HorizontalLayout gap="2"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

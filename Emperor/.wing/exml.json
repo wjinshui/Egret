@@ -1,0 +1,83 @@
+{
+    "design": {
+        "height": "390",
+        "width": "840"
+    },
+    "17e95408f2e": {
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": false,
+        "useBgColor": false,
+        "backgroundAlpha": 100
+    },
+    "17e954f6d02": {
+        "path": "Scene\\Start.ts",
+        "class": "Start",
+        "parentPath": ""
+    },
+    "17e95d3a661": {
+        "path": "Scene\\SetName.ts",
+        "class": "SetName",
+        "parentPath": ""
+    },
+    "17e96351d5a": {
+        "path": "Scene\\Palace.ts",
+        "class": "Palace",
+        "parentPath": ""
+    },
+    "17e9ad76c13": {
+        "path": "Scene\\Court.ts",
+        "class": "Court",
+        "parentPath": ""
+    },
+    "17e9b13df69": {
+        "path": "Scene\\ImageLabel.ts",
+        "class": "ImageLabel",
+        "parentPath": ""
+    },
+    "17eaec2332f": {
+        "path": "..\\resource\\scene\\TempScene.ts",
+        "class": "TempScene",
+        "parentPath": "",
+        "backgroundType": "null",
+        "useBgImage": false,
+        "useBgColor": true,
+        "backgroundColor": "#C88080"
+    },
+    "17eaf56a709": {
+        "path": "Scene\\BasicCharaItem.ts",
+        "class": "BasicCharaItem",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "17eba2d74b8": {
+        "path": "Scene\\TableControl.ts",
+        "class": "TableControl",
+        "parentPath": ""
+    },
+    "17eba3729f0": {
+        "path": "Scene\\TestScene.ts",
+        "class": "TestScene",
+        "parentPath": ""
+    },
+    "17ebf837e8e": {
+        "path": "Scene\\GuanzhiBiao.ts",
+        "class": "GuanzhiBiao",
+        "parentPath": ""
+    },
+    "17ec4700363": {
+        "path": "Scene\\ImageButton.ts",
+        "class": "ImageButton",
+        "parentPath": "resource/eui_skins/ImageLabel.exml",
+        "backgroundType": "user",
+        "useBgImage": false,
+        "useBgColor": true,
+        "backgroundColor": "#995151"
+    },
+    "17ed9fbbe43": {
+        "path": "Scene\\Preload.ts",
+        "class": "Preload",
+        "parentPath": ""
+    }
+}

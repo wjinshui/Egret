@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetNameSkin" width="1000" height="564" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17e95d3a661" ></w:Config>
+	<e:Image source="set_name_png" x="0" y="0"/>
+	<e:TextInput id="txtCountry" width="113" height="25" x="259" y="167" rotation="0" alpha="1" text="大汉" textColor="0x554444"/>
+	<e:TextInput width="113" height="25" x="549" y="167" rotation="0" alpha="1" id="txtYear" text="启明" textColor="0x554444"/>
+	<e:TextInput width="113" height="25" x="259" y="277" rotation="0" alpha="1" id="txtName" text="王" textColor="0x554444"/>
+	<e:TextInput width="113" height="25" x="549" y="277" rotation="0" alpha="1" id="txtSon" text="钰" textColor="0x554444"/>
+	<e:Label id="lblNext" x="528" y="519" width="181" height="30"/>
+</e:Skin>

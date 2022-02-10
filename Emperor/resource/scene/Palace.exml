@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PalaceSkin" width="1000" height="564" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="lblZhizhen" ></w:Config>
+	<e:Image source="bg_palace_day_jpg" x="0" y="0" width="1000" height="564"/>
+	<e:Label id="lblDong" x="39.067" y="29.967" size="15" width="220" height="16.754" fontFamily="KaiTi"/>
+	<e:Label id="lblInfo" x="39.067" y="62.278" height="138" size="14" width="217.498" fontFamily="KaiTi"/>
+	<e:Label id="lblXuanzheng" x="883" y="21" width="93" height="36"/>
+	<e:Label x="880" y="81" width="93" height="36" id="lblYangxin"/>
+	<e:Label x="883" y="133" width="93" height="36" id="lblZhichen"/>
+	<e:Label x="883" y="187" width="93" height="36" id="lblXidian"/>
+	<e:Label x="884" y="242" width="93" height="36" id="lblDongdian"/>
+	<e:Label x="885" y="303" width="93" height="36" id="lblJingCheng"/>
+</e:Skin>

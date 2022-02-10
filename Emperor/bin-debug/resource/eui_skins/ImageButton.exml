@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ImageButtonSkin" width="100.5" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17ec4700363" ></w:Config>
+	<e:Image source="bg_btn" visible="true" bottom="0" zIndex="3" fillMode="scale" right="0" top="0" left="0"/>
+	<e:Rect fillColor="0xBE8282" alpha="0" left="5" bottom="5" right="5" top="5" strokeWeight="4" ellipseWidth="20" ellipseHeight="20" strokeAlpha="1" fillAlpha="0.5" strokeColor="0x791919"/>
+	<e:Label id="content" textAlign="center" verticalAlign="middle" fontFamily="KaiTi" text="户工工" size="20" zIndex="2" horizontalCenter="0" verticalCenter="0" left="10" top="10" bottom="10" right="10"/>
+</e:Skin>

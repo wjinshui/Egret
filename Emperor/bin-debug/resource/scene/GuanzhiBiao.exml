@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuanzhiBiaoSkin" width="1000" height="564" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="17ebf837e8e" ></w:Config>
+	<e:Image source="head_bg" height="64" left="0" top="0" right="0"/>
+	<e:Image source="head_bg" height="64" left="0" right="0" x="10" bottom="0"/>
+	<ns1:TableControl id="tableGuanzhi" width="888.471" height="385.11" y="90.694" left="56"/>
+	<e:Label text="官职表" y="16.668" horizontalCenter="0.5" fontFamily="KaiTi" size="35"/>
+	<ns1:ImageButton id="btnReturn" width="89" height="36" y="514" horizontalCenter="0" />
+</e:Skin>

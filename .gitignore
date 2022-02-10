@@ -1,0 +1,10 @@
+# 项目排除路径
+/Emp/scripts/plugins/node_modules/
+/Emperor/scripts/plugins/node_modules/
+/EUI_Game/scripts/plugins/node_modules/
+/GameDemo/scripts/plugins/node_modules/
+/IdiomGuess/scripts/plugins/node_modules/
+/Learning/scripts/plugins/node_modules/
+/Temp/
+/Temp_1/scripts/plugins/node_modules/
+/Test/scripts/plugins/node_modules/

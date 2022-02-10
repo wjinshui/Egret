@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChooseLevelSkin" width="390" height="690" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17e807b7d1b" ></w:Config>
+	<e:Scroller left="0" top="0" right="0" bottom="0">
+		<e:Group anchorOffsetX="0" width="388" anchorOffsetY="0" height="518">
+			<e:Button id="btnReturnMain" label="返回主界面" x="137" y="612"/>
+			<e:Image x="290" y="256" rotation="0.31" width="30.45" height="47.12" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="76,85,458,511" source="arraw_png"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

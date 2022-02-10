@@ -1,0 +1,30 @@
+{
+  "17e7febb4be": {
+    "path": "scene\\Begin.ts",
+    "class": "Begin",
+    "parentPath": "",
+    "backgroundType": "user",
+    "backgroundImage": "E:\\Git\\Projects\\Egret\\IdiomGuess\\resource\\assets\\开始游戏.jpeg",
+    "useBgImage": true,
+    "useBgColor": false,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "backgroundAlpha": 100
+  },
+  "17e80797792": {
+    "path": "..\\resource\\scene\\ChooseLevel.ts",
+    "class": "ChooseLevel",
+    "parentPath": ""
+  },
+  "17e807b7d1b": {
+    "path": "scene\\ChooseLevel.ts",
+    "class": "ChooseLevel",
+    "parentPath": ""
+  },
+  "design": {
+    "height": "300",
+    "width": "400"
+  }
+}

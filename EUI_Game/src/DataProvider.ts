@@ -1,0 +1,4 @@
+class DataProvider {
+	public constructor() {
+	}
+}

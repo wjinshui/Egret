@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Play"
+	 width="434"
+	height="489" xmlns:e="http://ns.egret.com/eui">
+		<e:Scroller left="0" top="0" right="0" bottom="0">
+		<e:Group anchorOffsetX="0" width="388" anchorOffsetY="0" height="518">
+			<e:Button id="btnReturnMain" label="Play" x="128.962" y="366.856"/>
+			<e:Image x="125" y="182" rotation="0.31" width="30.45" height="47.12" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="76,85,458,511" source="arraw_png"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuanzhiBiaoSkin" width="1000" height="564" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="17ebf837e8e" ></w:Config>
+	<e:Image source="head_bg" height="64" left="0" top="0" right="0"/>
+	<e:Image source="head_bg" height="64" left="0" right="0" x="10" bottom="0"/>
+	<ns1:TableControl id="tableGuanzhi" left="60" right="60" horizontalCenter="0" top="90" bottom="90"/>
+	<e:Label text="官职表" y="16.668" horizontalCenter="0.5" fontFamily="KaiTi" size="35"/>
+	<ns1:ImageButton id="btnReturn" width="89" height="36" y="514" horizontalCenter="0" />
+	<e:Group id="group_mask" top="65" bottom="65" left="0" right="0" alpha="0.8">
+		<e:Group id="group_background" width="55.499" height="316" y="52" horizontalCenter="-5.5" alpha="1">
+			<ns1:ImageLabel width="50" height="45" x="6" y="1"/>
+			<ns1:ImageLabel width="50" height="45" x="16" y="11" enabled="false"/>
+			<ns1:ImageLabel width="50" height="45" x="26" y="21"/>
+			<ns1:ImageLabel width="50" height="45" x="36" y="31"/>
+			<ns1:ImageLabel width="50" height="45" x="46" y="41"/>
+			<ns1:ImageLabel width="50" height="45" x="56" y="51"/>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

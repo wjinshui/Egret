@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CourtSkin" width="1000" height="564" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="17e9ad76c13" ></w:Config>
+	<e:Image id="img" source="上朝_jpg" x="0" y="0"/>
+	<e:Group id="group_type" width="736" height="50" bottom="10" right="18" visible="true">
+		<ns1:ImageLabel width="75" height="49" x="45" y="11"/>
+		<ns1:ImageLabel width="75" height="49" x="130" y="12"/>
+		<ns1:ImageLabel width="75" height="49" x="55" y="21"/>
+		<ns1:ImageLabel width="75" height="49" x="65" y="31"/>
+		<ns1:ImageLabel width="75" height="49" x="75" y="41"/>
+		<ns1:ImageLabel width="75" height="49" x="85" y="51"/>
+		<ns1:ImageLabel width="75" height="49" x="95" y="61"/>
+		<ns1:ImageLabel width="75" height="49" x="105" y="71"/>
+		<ns1:ImageLabel width="75" height="49" x="115" y="81"/>
+		<e:layout>
+			<e:TileLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_detail" width="126.876" height="464.404" right="19" verticalCenter="-30">
+		<e:layout>
+			<e:TileLayout orientation="rows" verticalAlign="bottom" horizontalAlign="center"/>
+		</e:layout>
+		<ns1:ImageLabel width="75" height="49" x="8" y="22"/>
+		<ns1:ImageLabel width="75" height="49" x="55" y="21"/>
+		<ns1:ImageLabel width="75" height="49" x="65" y="31"/>
+		<ns1:ImageLabel width="75" height="49" x="75" y="41"/>
+		<ns1:ImageLabel width="75" height="49" x="105" y="71"/>
+		<ns1:ImageLabel width="75" height="49" x="115" y="81"/>
+	</e:Group>
+</e:Skin>

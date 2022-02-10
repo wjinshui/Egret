@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BasicCharaItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="500" height="40">
+
+
+	<w:Config id="17eaf56a709" ></w:Config>
+</e:Skin>

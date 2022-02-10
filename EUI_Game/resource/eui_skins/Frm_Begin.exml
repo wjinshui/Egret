@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Frm_BeginSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17e5ddbd6fa" ></w:Config>
+	<e:Button label="开始游戏" x="115" y="75"/>
+</e:Skin>

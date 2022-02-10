@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////////////////////
-//
+//  V1.1
 //  Copyright (c) 2014-present, Egret Technology.
 //  All rights reserved.
 //  Redistribution and use in source and binary forms, with or without

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FengjueSkin" width="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="400">
+	<w:Config id="17ee9219947" ></w:Config>
+	<e:Group id="group_mask" right="0" bottom="0" top="0" left="0">
+        <e:Image width="55.468" horizontalCenter="-0.5" height="219.488" source="bg_title" verticalCenter="13.5"/>
+        <e:Rect fillAlpha="0.8" left="0" right="0" top="0" bottom="0" alpha="0.5"/>
+        <e:Label id="lab_wang" text="王" width="30" size="20" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="-75"/>
+        <e:Label text="公" width="30" size="20" id="lab_gong" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="-46"/>
+        <e:Label text="候" width="30" size="20" id="lab_hou" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="-18"/>
+        <e:Label text="伯" width="30" size="20" id="lab_bo" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="11"/>
+        <e:Label text="男" width="30" size="20" id="lab_nan" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="40"/>
+        <e:Label text="子" width="30" size="20" id="lab_zi" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="69"/>
+        <e:Label text="无" width="30" size="20" id="lab_wu" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="97"/>
+    </e:Group>
+
+</e:Skin>

@@ -6,6 +6,7 @@ class SceneManager extends egret.DisplayObjectContainer {
     private guanzhibiao:GuanzhiBiao;
     private diaohuan: GuanzhiBiao;
     private diaohuan_queren:GuanzhiBiao;
+    private fengjue:GuanzhiBiao;
     private preload:Preload;
     public static readonly SCENE_START = 'start';
     public static readonly SCENE_SETNAME = 'setname';
@@ -15,6 +16,7 @@ class SceneManager extends egret.DisplayObjectContainer {
     public static readonly SCENE_DIAOHUAN = 'diaohuan';
     public static readonly SCENE_PRELOAD = 'preload';
     public static readonly SCENE_DIAOHUAN_QUEREN = 'queren';
+    public static readonly SCENE_FENGJUE = 'fengjue';
     private static instance: SceneManager;
 
  
@@ -70,6 +72,9 @@ class SceneManager extends egret.DisplayObjectContainer {
                 break;
             case SceneManager.SCENE_DIAOHUAN_QUEREN:
                 this.addChild(new GuanzhiBiao('调换'));
+                break;
+            case SceneManager.SCENE_FENGJUE:
+                this.addChild(new GuanzhiBiao('封爵'));
                 break;
 
 

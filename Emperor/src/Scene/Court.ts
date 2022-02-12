@@ -64,6 +64,9 @@ class Court extends eui.Component implements eui.UIComponent {
 			case '调换官员':
 				SceneManager.getInstance().gotoScene(SceneManager.SCENE_DIAOHUAN);
 				break;
+			case '封爵':
+				SceneManager.getInstance().gotoScene(SceneManager.SCENE_FENGJUE);
+				break;
 			case '取消':
 				this.group_detail.removeChildren();
 				break;

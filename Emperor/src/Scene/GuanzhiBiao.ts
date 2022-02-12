@@ -2,41 +2,27 @@ class GuanzhiBiao extends eui.Component implements  eui.UIComponent {
 	public tableGuanzhi:TableControl;
 	public btnReturn:ImageButton;
 	private type:string;
-
-	public group_mask:eui.Group;
-	public group_background:eui.Group;
-	public title_wang:ImageLabel;
-	public title_gong:ImageLabel;
-	public title_hou:ImageLabel;
-	public title_bo:ImageLabel;
-	public title_zi:ImageLabel;
-	public title_nan:ImageLabel;
-	public title_wu:ImageLabel;
+	public mask_fengjue:Fengjue;
 
 
-	public constructor(_type:string = '') {
+
+	public constructor (_type:string = '')
+	{
 		super();
 		this.type = _type;
-		
-		let bg_title = this.createBitmapByName('bg_title');
-		this.addChild(bg_title);
-		bg_title.width = this.group_background.width;
-		bg_title.height = this.group_background.height;
-		bg_title.x =0;
-		bg_title.y = 0;
-		
-		this.addEventListener(egret.Event.COMPLETE,this.onComplete,this);
+		this.addEventListener(eui.UIEvent.COMPLETE,this.onComplete,this);
 	}
 
-	private createBitmapByName(name: string): egret.Bitmap {
-        let result = new egret.Bitmap();
-        let texture: egret.Texture = RES.getRes(name);
-        result.texture = texture;
-        return result;
-    }
+	public setMaskVisual(visible:boolean)
+	{
+		this.mask_fengjue.setVisual(true);		
+	}
+
+
 
 	public onComplete(event: egret.Event): void
 	{
+
 		var sourceArr: any[] = [];
 		var guanyuans: Array<Guanyuan>;
 		if(this.type == '调换')

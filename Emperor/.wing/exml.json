@@ -79,5 +79,23 @@
         "path": "Scene\\Preload.ts",
         "class": "Preload",
         "parentPath": ""
+    },
+    "17ee408de20": {
+        "path": "Scene\\FengJue.ts",
+        "class": "FengJue",
+        "parentPath": "",
+        "backgroundType": "user",
+        "useBgImage": false,
+        "useBgColor": true
+    },
+    "17ee9219947": {
+        "path": "Scene\\Fengjue.ts",
+        "class": "Fengjue",
+        "parentPath": ""
+    },
+    "17eec5b24b8": {
+        "path": "Scene\\Waidiao.ts",
+        "class": "Waidiao",
+        "parentPath": ""
     }
 }

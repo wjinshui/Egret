@@ -53,7 +53,7 @@ class BasicCharaItem extends eui.ItemRenderer implements  eui.UIComponent {
 				lbl.width = avg;
 			group.addChild(lbl);
 		}
-		console.log('in item:  avg: ', avg, ' width: ', this.width );
+
 		let btn = new eui.Button();
 		if(this.data.operation != null)
 			btn.label = this.data.operation;

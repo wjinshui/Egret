@@ -8,8 +8,8 @@
         <e:Label text="公" width="30" size="20" id="lab_gong" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="-46"/>
         <e:Label text="候" width="30" size="20" id="lab_hou" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="-18"/>
         <e:Label text="伯" width="30" size="20" id="lab_bo" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="11"/>
-        <e:Label text="男" width="30" size="20" id="lab_nan" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="40"/>
-        <e:Label text="子" width="30" size="20" id="lab_zi" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="69"/>
+        <e:Label text="男" width="30" size="20" id="lab_nan" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="68"/>
+        <e:Label text="子" width="30" size="20" id="lab_zi" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="40"/>
         <e:Label text="无" width="30" size="20" id="lab_wu" fontFamily="KaiTi" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="97"/>
     </e:Group>
 

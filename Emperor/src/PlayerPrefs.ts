@@ -27,6 +27,11 @@ class PlayerPrefs {
         }
     }
 
+    public getSelectedGuanyuan():Guanyuan
+    {
+        return this.selected_guanyuan;
+    }
+
     private constructor() {
 
     }

@@ -55,11 +55,11 @@ export class Main extends eui.UILayer {
         this.runGame().catch(e => {
             console.log(e);
         });
-        console.log('in create');
+
     }
 
     private async runGame() {
-        console.log('in rungame');
+
         await this.loadResource()
         this.createGameScene();
         const result = await RES.getResAsync("description_json")
@@ -105,7 +105,7 @@ export class Main extends eui.UILayer {
         let start = SceneManager.getInstance();
         this.addChild(start);
         PlayerPrefs.getInstance().newGame();
-        console.log('in gamescene');
+
         //this.addChild(new TestScene());
     }
     /**

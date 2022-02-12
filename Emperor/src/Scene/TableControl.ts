@@ -1,15 +1,19 @@
 class TableControl extends eui.Component implements  eui.UIComponent {
+	public groupContent:eui.Group;
+	public groupHeader:eui.Group;
+	public scroller:eui.Scroller;
 	private ascend: boolean = true;
+	private list: eui.List;
 
-	get collection(): eui.ArrayCollection {
-		return this._collection;
+	public constructor() {
+		super();
+		this.width = TableManager.getInstance().width;
+		this.maxWidth = this.width;
+		this.addEventListener(egret.Event.COMPLETE,this.onComplete,this);
 	}
 
-	set collection(value: eui.ArrayCollection) {
-		this._collection = value;
-		this.list.dataProvider = this.collection;  
+	private _header:string[];
 
-	}
 	get header(): string[] {
 		return this._header;
 	}
@@ -37,7 +41,41 @@ class TableControl extends eui.Component implements  eui.UIComponent {
 			this.groupHeader.addChild(lbl);
 			lbl.addEventListener(egret.TouchEvent.TOUCH_TAP, this.sortCollection, this);
 		}
-		console.log('in header:  avg: ', avg, ' width: ', this.width, ' max width: ' , this.maxWidth );
+
+	}
+
+	private _collection: eui.ArrayCollection;
+
+	get collection(): eui.ArrayCollection {
+		return this._collection;
+	}
+
+	set collection(value: eui.ArrayCollection) {
+		this._collection = value;
+		this.list.dataProvider = this.collection;
+
+	}
+
+	public onComplete(event: egret.Event): void
+	{
+		this.list = new eui.List();
+		this.list.dataProvider = this.collection;
+		this.scroller.addChild(this.list);
+		this.scroller.viewport = this.list;
+		this.list.percentWidth = 100;
+		this.list.selectedIndex = 1;
+		this.list.itemRenderer = BasicCharaItem;
+		this.list.addEventListener(eui.ItemTapEvent.ITEM_TAP, this.onTap, this);
+	}
+
+	protected partAdded(partName:string,instance:any):void
+	{
+		super.partAdded(partName,instance);
+	}
+
+	protected childrenCreated():void
+	{
+		super.childrenCreated();
 	}
 
 	private sortCollection(e:egret.TouchEvent):void
@@ -68,38 +106,6 @@ class TableControl extends eui.Component implements  eui.UIComponent {
 
 	}
 
-
-	public groupContent:eui.Group;
-	public groupHeader:eui.Group;
-	public scroller:eui.Scroller;
-
-
-
-	public constructor() {
-		super();
-		this.width = TableManager.getInstance().width;
-		this.maxWidth = this.width;
-		this.addEventListener(egret.Event.COMPLETE,this.onComplete,this);
-	}
-
-	public onComplete(event: egret.Event): void
-	{
-		this.list = new eui.List();
-		this.list.dataProvider = this.collection;
-		this.scroller.addChild(this.list);
-		this.scroller.viewport = this.list;
-		this.list.percentWidth = 100;
-		this.list.selectedIndex = 1;
-		this.list.itemRenderer = BasicCharaItem;
-		this.list.addEventListener(eui.ItemTapEvent.ITEM_TAP, this.onTap, this);
-	}
-	private list: eui.List;
-
-	protected partAdded(partName:string,instance:any):void
-	{
-		super.partAdded(partName,instance);
-	}
-
 	private onTap(e:eui.PropertyEvent):void{
 		//获取点击消息
 		var item = this.list.selectedItem;
@@ -113,16 +119,13 @@ class TableControl extends eui.Component implements  eui.UIComponent {
 			PlayerPrefs.getInstance().setDiaohuanGuanyuan(item.id);
 			SceneManager.getInstance().gotoScene(SceneManager.SCENE_DIAOHUAN);
 		}
-		console.log(this.list.selectedItem,this.list.selectedIndex)
-	}
+		else if(item.operation == '封爵')
+		{
+			PlayerPrefs.getInstance().setSelectedGuanyuan(item.id);
+			let guanyuanbiao: GuanzhiBiao = <GuanzhiBiao> this.parent;
+			guanyuanbiao.setMaskVisual(true);
+		}
 
-	private _header:string[];
-	private _collection: eui.ArrayCollection;
-
-
-	protected childrenCreated():void
-	{
-		super.childrenCreated();
 	}
 	
 }
